@@ -1,0 +1,12 @@
+﻿@using ApplicationName.Classes
+@{
+    ViewBag.Title = "Details";
+}
+@model Category
+<h2 style="text-align:center" ;>Category Details</h2>
+<h3>@Model.Name</h3>
+<p>
+    @Html.ActionLink(" Edit", "EditCategory", new { name = Model.Name }, new { @class = "btn btn-default glyphicon glyphicon-pencil" })
+    @Html.ActionLink(" Delete", "DeleteCategory", new { name = Model.Name, id = Model.ID }, new { @class = "btn btn-danger glyphicon glyphicon-trash" })
+</p>
+<div>@Html.ActionLink(" Back", "IndexCategories", null, new { @class = "btn btn-primary glyphicon glyphicon-circle-arrow-left" })</div>
