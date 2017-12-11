@@ -1,0 +1,12 @@
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\ChristmasApplication.Classes.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\ChristmasApplication.Classes.pdb
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Bson.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Driver.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Bson.xml
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Driver.xml
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\obj\Debug\ChristmasApplication.Classes.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\obj\Debug\ChristmasApplication.Classes.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Classes\obj\Debug\ChristmasApplication.Classes.pdb
