@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Toys";
+}
+
+@using ChristmasApplication.Web.Models
+
+@model Toys
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2 style="text-align:center;">Toys</h2>
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var toy in Model.ToysList)
+        {
+            var colorAlert = "alert-success";
+            if (toy.Amount == 0)
+            {
+                colorAlert = "alert-danger";
+            }
+            <tr class=@colorAlert>
+                <td>
+                    @toy.Name
+                </td>
+                <td>
+                    @toy.Amount
+                </td>
+            </tr>
+        }    
+    </tbody>
+</table>

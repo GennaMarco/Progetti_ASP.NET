@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChristmasApplication.Classes
 {
     public class SHA512 
     {
-        internal static string GetSHA512(string String)
+        public static string GetSHA512(string String)
         {
             byte[] hashValue;
             byte[] message = System.Text.Encoding.UTF8.GetBytes(String);

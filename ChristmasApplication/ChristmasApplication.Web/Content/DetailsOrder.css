@@ -1,0 +1,25 @@
+﻿.list-cust .list-group-item {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.list-cust .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.list-cust .list-group-item {
+    border-right:0px;
+    border-left:0px;
+}
+.list-group {
+    background-color: #EEE;      
+}
+
+h5
+{  
+    margin-top: 0px;
+}
+
+.element-order{
+        margin-top: 10px
+}

@@ -1,14 +1,9 @@
 ﻿using MongoDB.Driver;
-using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChristmasApplication.Classes
 {
-    class MongoDBConfig
+    public class MongoDBConfig
     {
         public static MongoClientSettings Settings { get; set; }
         public static string DBName

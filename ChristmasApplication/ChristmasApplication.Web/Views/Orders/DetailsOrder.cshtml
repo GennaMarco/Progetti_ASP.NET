@@ -1,0 +1,74 @@
+﻿@using ChristmasApplication.Classes
+@{
+    ViewBag.Title = "Details Order";
+}
+
+@Styles.Render("~/Content/DetailsOrder.css")
+
+@model Order
+<h2 style="text-align:center";>Order Details</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal center-block">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <dt class="element-order">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class="element-order">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+    
+        <dt class="element-order">
+            @Html.DisplayNameFor(model => model.Kid)
+        </dt>
+        <dd class="element-order">
+            @Html.DisplayFor(model => model.Kid)
+        </dd>
+        
+        <dt class="element-order">
+            @Html.DisplayNameFor(model => model.RequestDate)
+        </dt>
+        <dd class="element-order">
+            @Html.DisplayFor(model => model.RequestDate)
+        </dd>
+        
+        <dt class="element-order">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class="element-order">
+            @Html.DisplayFor(model => model.Status)
+            @Html.ActionLink("Edit Status", "UpdateOrderStatus", new { id = Model.ID }, new { @class = "btn btn-warning btn-sm" })
+        </dd>
+        <hr />
+        <div class="container">
+            <div class="row center-block">
+                <h5 class="text-center"><strong>Toys List</strong></h5>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th class="text-center">Name</th>
+                            <th class="text-center">Amount(in stock)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var toy in Model.ToysList)
+                    {
+                        var colorAlert = "alert-success";
+                        if (toy.Amount == 0)
+                        {
+                            colorAlert = "alert-danger";
+                        }
+                        <tr class="@colorAlert">
+                            <td class="text-center">@toy.Name</td>
+                            <td class="text-center">@toy.Amount</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        </div>     
+    </dl>
+</div>
+
+@Html.ActionLink(" Back", "IndexOrders", null, new { @class = "btn btn-primary glyphicon glyphicon-circle-arrow-left" })
+

@@ -99,10 +99,6 @@ C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApp
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.csprojResolveAssemblyReference.cache
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.pdb
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.csprojResolveAssemblyReference.cache
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.pdb
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\ApplicationInsights.config
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\roslyn\csc.exe
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -122,13 +118,6 @@ C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApp
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\ChristmasApplication.Classes.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\EntityFramework.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\EntityFramework.SqlServer.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.Web.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.ApplicationInsights.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AspNet.Identity.Owin.dll
@@ -158,11 +147,6 @@ C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApp
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\System.Web.WebPages.Razor.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\WebGrease.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\ChristmasApplication.Classes.pdb
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.Web.xml
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\MongoDB.Bson.xml
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\MongoDB.Driver.xml
@@ -209,3 +193,6 @@ C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApp
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\it\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\it\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\bin\it\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.dll
+C:\Users\Marco\Desktop\GITHUB\Progetti ASP.NET\ChristmasApplication\ChristmasApplication.Web\obj\Debug\ChristmasApplication.Web.pdb

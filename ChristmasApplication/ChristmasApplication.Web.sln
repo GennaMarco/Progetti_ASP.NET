@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasApplication.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasApplication.Classes", "ChristmasApplication.Classes\ChristmasApplication.Classes.csproj", "{94DF7030-5596-4F46-8EDC-244A4ECEAB21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasApplication.Tests", "ChristmasApplication.Tests\ChristmasApplication.Tests.csproj", "{02BBF009-72D8-48A9-B304-D69006FD2AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChristmasApplication.Tests.Integration", "ChristmasApplication.Tests.Integration\ChristmasApplication.Tests.Integration.csproj", "{AD1E6A66-9D0D-4FFB-8DDA-BC76310234DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{94DF7030-5596-4F46-8EDC-244A4ECEAB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DF7030-5596-4F46-8EDC-244A4ECEAB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DF7030-5596-4F46-8EDC-244A4ECEAB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BBF009-72D8-48A9-B304-D69006FD2AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BBF009-72D8-48A9-B304-D69006FD2AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BBF009-72D8-48A9-B304-D69006FD2AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BBF009-72D8-48A9-B304-D69006FD2AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1E6A66-9D0D-4FFB-8DDA-BC76310234DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1E6A66-9D0D-4FFB-8DDA-BC76310234DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1E6A66-9D0D-4FFB-8DDA-BC76310234DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1E6A66-9D0D-4FFB-8DDA-BC76310234DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

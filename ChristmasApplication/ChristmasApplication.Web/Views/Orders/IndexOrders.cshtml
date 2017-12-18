@@ -1,0 +1,85 @@
+﻿@{
+    ViewBag.Title = "Orders";
+}
+
+@using ChristmasApplication.Web.Models
+
+@model Orders
+
+<div class="row">
+    <div class="col-xs-12">
+        <h2 style="text-align:center;">Orders</h2>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    </div>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kid</th>
+            <th>Status</th>
+            <th>ToysList</th>
+            <th>RequestDate</th>
+            <th>
+                @if (Session["ScreenName"].ToString() == "SantaTheBest")
+                {
+                    @Html.DisplayName("TotalPrice")
+                }
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @{
+        decimal TotalPriceOrder;
+        foreach (var order in Model.OrdersList)
+        {
+            var colorAlert = "alert-danger";
+            if (order.Status.ToString() == "Done")
+            {
+                colorAlert = "alert-success";
+            }
+            <tr class=@colorAlert>
+                <td>
+                    @order.Kid
+                </td>
+                <td>
+                    @order.Status
+                </td>
+                <td>
+                    @foreach (var toy in order.ToysList)
+                    {
+                        <p>@toy.Name</p>
+                    }
+                </td>
+                <td>
+                    @order.RequestDate.ToString("dd-MMM-yyyy")
+                </td>
+                <td>
+                    @if (Session["ScreenName"].ToString() == "FabulousZiggy")
+                    {
+                        @Html.ActionLink("Details", "DetailsOrder", new { id = order.ID}, new { @class = "btn btn-primary btn-sm" })
+                    }
+                    else if (Session["ScreenName"].ToString() == "SantaTheBest")
+                    {
+                        TotalPriceOrder = Model.GetTotalPriceOfOrder(order);
+                        if (TotalPriceOrder != 0)
+                        {
+                            @Html.DisplayName("€" + TotalPriceOrder.ToString("F"))
+                        }
+                        else
+                        {
+                            <p>Non è stato</p>
+                            <p>possibile ricavare</p>
+                            <p>il prezzo in quanto</p>
+                            <p>il nome di un</p>
+                            <p>giocattolo della</p>
+                            <p>lista risulta</p>
+                            <p>null/empy/whitespace</p>
+                            <p>o non esistente</p>
+                        }
+                    }
+                </td>
+            </tr> 
+        }
+    }
+    </tbody>
+</table>
